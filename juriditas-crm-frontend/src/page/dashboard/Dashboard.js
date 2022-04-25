@@ -1,13 +1,18 @@
 import React from 'react';
-import {Container, Row, Col, Button} from 'react-bootstrap';
+import {Container, Row, Col, Button } from 'react-bootstrap';
 import TablaProcesos from '../../components/tabla-proceso/TablaProcesos';
-
+import BreadcrumbPage from '../../components/breadcrumb/Breadcrumb';
 import users from '../../assets/data/DummyUser';
 import Procesos from '../../assets/data/DummyProcess';
 
 function Dashboard({name}) {
     return (
         <Container>
+        <Row>
+            <Col>
+                <BreadcrumbPage page="Dashboard" />
+            </Col>
+        </Row>
         <Row>
             <Col className="mt-3 " >
                 <h3>Hola {name}, Bienvenido a la información sobre tu proceso</h3> 
