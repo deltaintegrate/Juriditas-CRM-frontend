@@ -1,0 +1,41 @@
+[
+
+            {
+                "id_proceso":3030,
+                "userId":1,
+                "nombre_documento":"Documento probatorio",
+                "base64":"sdf5sd4s1dfs1df554s.",
+                "Estado_anexo":"prejudicial",
+                "formato":"imagen",
+                "extension":"jpg"
+            },
+            {
+                "id_proceso":3040,
+                "userId":1,
+                "nombre_documento":"Pruebas del probatorio",
+                "base64":"sdf5sd4s1dfs1df554s.",
+                "Estado_anexo":"prejudicial",
+                "formato":"imagen",
+                "extension":"jpg"
+            },
+            {
+                "id_proceso":3050,
+                "userId":1,
+                "nombre_documento":"Video probatorio",
+                "base64":"sdf5sd4s1dfs1df554s.",
+                "Estado_anexo":"prejudicial",
+                "formato":"Video",
+                "extension":"MP4"
+            },
+            {
+                "id_proceso":3060,
+                "userId":1,
+                "nombre_documento":"Documento probatorio",
+                "base64":"sdf5sd4s1dfs1df554s.",
+                "Estado_anexo":"prejudicial",
+                "formato":"imagen",
+                "extension":"jpg"
+            }
+        
+    
+]

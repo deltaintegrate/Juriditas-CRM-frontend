@@ -6,7 +6,7 @@ import {Navbar, Nav} from 'react-bootstrap';
 function Header() {
     return (
         <Navbar collapseOnSelect bg="dark" variant="dark" expand="md" >
-            <Navbar.Brand class="px-3 p-1">
+            <Navbar.Brand className="px-3 p-1">
                 <img src={logo} alt="logo" width="50px" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
