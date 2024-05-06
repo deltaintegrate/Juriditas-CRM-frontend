@@ -7,7 +7,7 @@ function loginComponent({handleOnChange, handleSubmit, email, password, formSwit
             <Row>
                 <Col>
                 <div>
-                    <h1 className="text-center" >Juriditas</h1>
+                    <h1 className="text-center" > Somos Juriditas</h1>
                 </div>
                 <div>
                     <Form autoComplete="off" onSubmit={handleSubmit}>

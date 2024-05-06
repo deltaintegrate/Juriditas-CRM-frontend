@@ -1,0 +1,21 @@
+[
+    {
+        "id_contestacion":30365,
+        "userId":101,
+        "nombre_documento":"Documento contestacion",
+        "base64":"sdf5sd4s1dfs1df554s.",
+        "Estado_anexo":"Contestacion",
+        "formato":"pdf",
+        "extension":"pdf"
+    },
+    {
+        "id_contestacion":30456,
+        "userId":101,
+        "nombre_documento":"Pruebas del contestacion 2",
+        "base64":"sdf5sd4s1dfs1df554s.",
+        "Estado_anexo":"Contestacion",
+        "formato":"imagen",
+        "extension":"jpg"
+    }
+
+]

@@ -4,15 +4,15 @@ import ResetPassword from '../../components/password-reset/PasswordReset';
 import './Entrystyle.css';
 
 function Entrypage() {
-    let [email, setEmail] = useState('');
+    let [telefono, setTelefono] = useState('');
     let [password, setPassword] = useState('');
     let [formLoad, setFormLoad] = useState('login');
 
     const handleOnChange = e => {
         var {name, value} = e.target;
         switch(name){
-            case "email":
-                setEmail(value);
+            case "telefono":
+                setTelefono(value);
                 break;
             case "password":
                 setPassword(value);
@@ -50,7 +50,7 @@ function Entrypage() {
                     handleOnChange={handleOnChange}
                     handleSubmit={handleSubmit}
                     formSwitcher={formSwitcher} 
-                    email={email}
+                    telefono={telefono}
                     password={password}
                 />
             )}
@@ -59,7 +59,7 @@ function Entrypage() {
                     handleOnChange={handleOnChange}
                     handleOnResetSubmit={handleOnResetSubmit}
                     formSwitcher={formSwitcher}  
-                    email={email}
+                    telefono={telefono}
                 />
             )}
             </div>
