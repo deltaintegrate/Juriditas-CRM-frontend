@@ -3,12 +3,27 @@ import { useNavigate } from 'react-router-dom';
 import LoginComponent from '../../components/login/loginComponent';
 import ResetPassword from '../../components/password-reset/PasswordReset';
 import axios from "axios";
-import './Entrystyle.css';
+import './Registerstyle.css';
 
-function Entrypage() {
-    let [telefono, setTelefono] = useState('');
+function Registerpage() {
+
+    let [name, setName] = useState('');
+    let [email, setEmail] = useState('');
     let [password, setPassword] = useState('');
-    let [correo, setCorreo] = useState('');
+    let [isdeleted, setDeleted] = useState(false);
+    let [created_at, setCreated_at] = useState('');
+    let [updated_at, setUpdated_at] = useState('');
+    let [created_by, setCreated_by] = useState(1);
+    let [userType, setUserType] = useState(2);
+    let [userRoleType, setUserRoleType] = useState(2);
+    let [document, setDocument] = useState('');
+    let [document_number, setDocument_number] = useState('');
+    let [lastname, setLastname] = useState('');
+    let [city, setCity] = useState('');
+    let [region, setRegion] = useState('');
+    let [phone, setPhone] = useState(1);
+    let [demand_id, setDemand_id] = useState(null);
+
     let navigate = useNavigate();
     let [formLoad, setFormLoad] = useState('login');
 

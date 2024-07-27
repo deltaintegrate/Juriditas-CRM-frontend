@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto-LightItalic.ttf') format('roboto'),
+       url('../../fonts/Roboto-Medium.ttf') format('robotoMedium');
+  font-family: bold;
+}
+
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.text-center{
+  font-family: 'roboto', sans-serif;
+}
+
+.text-initial {
+  font-family: 'roboto', sans-serif;
+  color: #949393;
+  margin-right: 0.8rem;
+  font-weight: 100;
+}
+
+.form-control.input-telefono-cont{
+  background: url('../../assets/img/user-solid.png') no-repeat scroll 7px 7px;
+  padding-left: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border: none;
+  border-bottom: solid 1px #A0B9C7;
+}
+
+.input-group-contrasena-cont{
+  display: flex;
+  align-items: center;
+}
+
+.password-toggle-icon {
+  color: #106F9A;
+}
+
+.form-control.input-contrasena-cont{
+  background: url('../../assets/img/key-solid.png') no-repeat scroll 7px 7px;
+  padding-left: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: solid 1px #A0B9C7;
+}
+
+.btn.btn-primary {
+  align-items: center;
+  background-color: #106F9A;
+  border-radius: 0.4rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.row-suggetsion{
+  font-size: small;
+}
+

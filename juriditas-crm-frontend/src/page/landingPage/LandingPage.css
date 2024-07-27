@@ -1,0 +1,10 @@
+.initial-component {
+  height: 23rem;
+  width: 100%;
+}
+
+.desk-image {
+  width: 300px; /* Ancho de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+
+}
