@@ -1,10 +1,155 @@
+.landing-page {
+  padding: 10px;
+}
+
+.content-full {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* Ajusta según el diseño */
+  position: relative; /* Importante para usar posicionamiento absoluto de los iconos */
+}
+
+.icon {
+  position: absolute;
+  transform: scale(1); /* Incrementa el tamaño un 40% */
+  transition: transform 0.3s ease; /* Suaviza el cambio de tamaño */
+}
+
+.icon:hover {
+  transform: scale(1.6); /* Aumenta ligeramente al pasar el cursor */
+}
+
+.icon.top-left {
+  top: 2rem;
+  left: 60px;
+  z-index: -2;
+}
+
+.icon.top-right {
+  top: 8rem;
+  right: 20rem;
+}
+
+.icon.bottom-left {
+  bottom: 102rem;
+  left: 22rem;
+}
+
+.icon.bottom-right {
+  bottom: 106rem;
+  right: 22rem;
+}
+
+.mid-upper-content {
+  display: flex;
+  margin: 1rem;
+  padding-bottom: 4rem;
+  flex-direction: row;
+}
+.content {
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+}
+.content-left {
+  position: relative;
+}
+
+.mid-content-term {
+  display: flex;
+  justify-content:right;
+  margin: 1rem;
+  padding-bottom: 4rem;
+  flex-direction: row;
+}
+
+.mid-upper-content h1 {
+  font-size: 19rem; /* Ajusta el tamaño del texto */
+  font-weight: bold; /* Hace el texto más grueso */
+  width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+  background: linear-gradient(to bottom, #A0B9C7 0%, rgba(160, 185, 199, 0) 100%);
+  -webkit-background-clip: text; /* Clip del fondo al área del texto para navegadores WebKit */
+  -moz-background-clip: text; /* Clip del fondo al área del texto para Firefox */
+  background-clip: text; /* Clip estándar */
+  color: transparent; /* Hace el texto transparente para que solo el gradiente sea visible */
+  margin: 0; /* Elimina márgenes externos para evitar desplazamientos no deseados */
+}
+
+.mid-content-term h1 {
+  font-size: 19rem; /* Ajusta el tamaño del texto */
+  font-weight: bold; /* Hace el texto más grueso */
+  width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+  background: linear-gradient(to bottom, #A0B9C7 0%, rgba(160, 185, 199, 0) 100%);
+  -webkit-background-clip: text; /* Clip del fondo al área del texto para navegadores WebKit */
+  -moz-background-clip: text; /* Clip del fondo al área del texto para Firefox */
+  background-clip: text; /* Clip estándar */
+  color: transparent; /* Hace el texto transparente para que solo el gradiente sea visible */
+  margin: 0; /* Elimina márgenes externos para evitar desplazamientos no deseados */
+}
+
+.center-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espaciado entre los íconos */
+  position: absolute;
+  top: 50%; /* Centrado verticalmente */
+  left: 50%; /* Centrado horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta para centrar correctamente */
+}
+
 .initial-component {
-  height: 23rem;
-  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;  
+  flex-direction: column;
+  margin: 1rem;
+  align-items: center;
+}
+
+
+.mid-content h1 {
+  font-size: 4rem; /* Tamaño del texto */
+  font-weight: bold;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: black; /* Color del texto interior */
+  -webkit-text-stroke: 1px #106F9A; /* Grosor y color del trazo */
+  text-stroke: 1px #106F9A; /* Soporte para otros navegadores */
+}
+
+.mid-content {
+  padding: 1rem;
+}
+.mid-upper-content p {
+  font-size: 1rem; /* Tamaño del texto */
+  font-weight: bold;
+  color: black; /* Color del texto interior */
+}
+
+.primary-button {
+  background-color: #106F9A;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #0A4D6E;
 }
 
 .desk-image {
-  width: 300px; /* Ancho de la imagen */
-  height: auto; /* Altura automática para mantener la proporción */
+  max-width: 80%;
+  position: relative;
+  height: auto;
+  margin-bottom: 20px;
+}
 
+.icon.database-image {
+  margin-top: 16rem;
 }
